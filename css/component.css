@@ -64,7 +64,6 @@ html, body,
 #fbsection3 {
 	background-image: url(../images/3.jpg);
 }
-
 #fbsection4 {
 	background-image: url(../images/4.jpg);
 }
@@ -73,12 +72,6 @@ html, body,
 	background-image: url(../images/5.jpg);
 }
 
-footer{
-  background: #F2BB6D;
-  font-size: 30px;
-  padding: 0px;
-  border-radius:0px;
-  height: 90px;
-  border-top: 100px;
-
+#fbsection6 {
+	background-image: url(../images/6.jpg)
 }

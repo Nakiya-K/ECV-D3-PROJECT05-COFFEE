@@ -19,10 +19,22 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #fff;
 }
 
+body {
+    font-family: 'Fascinate Inline', cursive;
+    color: #fff;
+	font-size: 1,5em
+}
+
+h1{
+	font-family:  'Fascinate Inline', cursive;
+	color: 0000000;
+	font-size: 100%;
+	text-align: center;
+}
 
 a {
 	color: #f0f0f0;
@@ -95,7 +107,32 @@ a:hover {
 	background: #47a3da;
 }
 
+.icon-drop:before,
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
 
 .container > header nav a:hover:before {
 	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
 }
