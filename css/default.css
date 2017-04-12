@@ -19,19 +19,64 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #fff;
 }
 
-
-a {
-	color: #f0f0f0;
-	text-decoration: none;
+body {
+    font-family: 'Fascinate Inline', cursive;
+    color: #fff;
+	font-size: 20px;
 }
 
-a:hover {
-	color: #000;
+h1{
+	font-family:  'Fascinate Inline', cursive;
+	color: #E6CD60;
+	font-size: 50px;
+	text-align: center;
+
 }
+
+h2{
+	font-family:  'Fascinate Inline', cursive;
+	color: #001057;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+h3{
+	font-family:  'Fascinate Inline', cursive;
+	color: #B8002B;
+	font-size: 80px;
+	text-align: right;
+}
+
+h4{
+	font-family:  'Fascinate Inline', cursive;
+	color: 0000000;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+h5{
+	font-family:  'Fascinate Inline', cursive;
+	color: #0D0B06;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+h6{
+	font-family:  'Fascinate Inline', cursive;
+	color: 0000000;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+
 
 .container > header {
 	padding: 2.875em 1.875em 1.875em;
@@ -42,11 +87,11 @@ a:hover {
 }
 
 .container > header h1 {
-	font-size: 2.125em;
+	font-size: 30px;
 	line-height: 1.3;
-	margin: 0;
 	float: left;
-	font-weight: 400;
+	font-weight: 200;
+
 }
 
 .container > header span {
@@ -61,19 +106,6 @@ a:hover {
 	float: right;
 }
 
-.container > header nav a {
-	display: block;
-	float: left;
-	position: relative;
-	width: 2.5em;
-	height: 2.5em;
-	background: #fff;
-	border-radius: 50%;
-	color: transparent;
-	margin: 0 0.1em;
-	border: 4px solid #fff;
-	text-indent: -8000px;
-}
 
 .container > header nav a:after {
 	content: attr(data-info);
@@ -96,6 +128,48 @@ a:hover {
 }
 
 
+
 .container > header nav a:hover:before {
 	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+
+.section-content {
+	max-width: 70%;
+	position: absolute;
+	top : 50%;
+	left : 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.section-gauche {
+	max-width: 70%;
+	position: absolute;
+	top : 50%;
+	left : 50%;
+	transform: translateY(-50%) translateX(-100%);
+
+}
+
+
+.section-droite {
+	max-width: 70%;
+	position: absolute;
+	top : 80%;
+	left : 50%;
+	transform: translateY(-50%) translateX(-3%);
+
+}
+.section-footer {
+	position: absolute;
+	bottom: 0;
+	left: 80%;
+	top: 94%;
 }
